@@ -1,0 +1,16 @@
+{
+  "name": "Xero Credit Bulk Allocation",
+  "description": "Allows for quick bulk allocation of many credit notes ",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Add values"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
