@@ -14,7 +14,7 @@ function addNotes() {
     }
     else {
       fieldAmount -= allocatedCredit - totalAllowedCredit;
-      inputFields[x].value = fieldAmount;
+      inputFields[x].value = fieldAmount.toFixed(2);
       break;
     }
   }
